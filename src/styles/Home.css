@@ -1,0 +1,27 @@
+.card {
+    display: flex !important;
+    flex-direction: row !important;
+    height: 100%;
+}
+
+.card-img-left {
+    max-width: 150px;
+}
+
+.card-img-top {
+    object-fit: cover;
+    height: 100%;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 15px;
+    text-align: right;
+}
+
+
+.card-body .btn {
+    align-self: flex-end;
+}
